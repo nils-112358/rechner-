@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<iq:manifest version="3" xmlns:iq="http://www.garmin.com/xml/connectiq">
+    <iq:application
+        id="74a17c6a-9152-4536-8421-43eec025a272"
+        type="watch-app"
+        name="@Strings.AppName"
+        entry="GhostContactsApp"
+        launcherIcon="@Drawables.LauncherIcon"
+        minApiLevel="5.0.0">
+        <iq:products>
+            <iq:product id="fenix847mm"/>
+        </iq:products>
+        <iq:permissions>
+            <iq:uses-permission id="Sensor"/>
+        </iq:permissions>
+        <iq:languages>
+            <iq:language>deu</iq:language>
+            <iq:language>eng</iq:language>
+        </iq:languages>
+        <iq:barrels/>
+    </iq:application>
+</iq:manifest>
